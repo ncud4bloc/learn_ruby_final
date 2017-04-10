@@ -18,7 +18,8 @@ def substrings(ph, di)
       end
     end
   end
-puts "Here\'s the hash:"; word_hash
+puts "Here\'s the hash: #{word_hash}"
+word_hash
 end  
     
 substrings(phrase, dictionary)
